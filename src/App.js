@@ -17,6 +17,7 @@ function App() {
 
 	return (
 		<div className="App">
+			Hiya
 			<Navigation cart={cart} />
 
 			{/* Routes */}
