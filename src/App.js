@@ -25,8 +25,8 @@ function App() {
 
 	const removeItem = (item) => {
 		let removeId = item;
-		let newCart = cart.filter((name) => {
-			return name.id !== removeId
+		let newCart = cart.filter((name, index) => {
+			return removeId !== index
 		})
 		setCart(newCart);
 	}
